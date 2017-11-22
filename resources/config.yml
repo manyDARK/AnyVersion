@@ -1,0 +1,6 @@
+---
+write-messages-in-log: true
+client-filter:
+  enable: true
+  allowed-protocols: []
+...

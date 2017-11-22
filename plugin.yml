@@ -1,0 +1,7 @@
+name: AnyVersion
+main: AnyVersion\AnyVersion
+version: 1.0.0
+api: [3.0.0-ALPHA9]
+load: STARTUP
+authors: [fromgate, Pub4Game]
+description: Allows connection of outdated/outrunned clients
