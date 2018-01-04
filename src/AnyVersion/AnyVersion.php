@@ -32,6 +32,12 @@ class AnyVersion extends PluginBase implements Listener
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
+	/**
+	 * @param DataPacketReceiveEvent $event
+	 * @priority LOWEST
+	 * @ignoreCancelled true
+	 * @return void
+	 */
 	public function onDataPacketReceiveEvent(DataPacketReceiveEvent $event): void
 	{
 		$packet = $event->getPacket();
